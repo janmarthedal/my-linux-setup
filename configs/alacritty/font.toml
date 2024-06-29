@@ -1,0 +1,3 @@
+import = [
+  "~/.local/share/my-linux-setup/fonts/alacritty/CaskaydiaMono.toml"
+]
