@@ -1,1 +1,1 @@
-sudo apt install -y ripgrep
+sudo apt install -y ripgrep curl
