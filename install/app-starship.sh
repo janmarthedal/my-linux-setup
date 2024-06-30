@@ -7,4 +7,4 @@ cd -
 mkdir -p ~/.config
 cp ~/.local/share/my-linux-setup/configs/starship.toml ~/.config/starship.toml
 
-echo 'eval "$(starship init bash)"' >> ~/.bashrc
+cp ~/.local/share/my-linux-setup/configs/starship/*.sh ~/.config/my-linux-setup/bash/rc/
