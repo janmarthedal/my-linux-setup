@@ -3,6 +3,9 @@
 ## Key bindings
 
 - ALT+Space: Window menu
+- Shift+Alt+1: New Chrome window
+- Shift+Alt+2: New Alacritty window
+- Shift+F11: Toggle full-screen
 
 ## Mise
 
