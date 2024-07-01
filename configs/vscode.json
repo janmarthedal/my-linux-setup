@@ -2,8 +2,9 @@
   "editor.fontFamily": "CaskaydiaMono Nerd Font",
   "editor.minimap.enabled": false,
   "files.trimTrailingWhitespace": true,
-  "window.titleBarStyle": "custom",
-  "window.zoomLevel": 2,
   "workbench.colorTheme": "Default Light Modern",
-  "workbench.startupEditor": "none"
+  "window.titleBarStyle": "custom",
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 2,
+  "git.confirmSync": false
 }
