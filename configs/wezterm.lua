@@ -39,6 +39,21 @@ config.keys = {
 		mods = "ALT",
 		action = act.ActivatePaneDirection("Down"),
 	},
+	{
+		key = "t",
+		mods = "CTRL",
+		action = act.SpawnTab("CurrentPaneDomain"),
+	},
+	{
+		key = "PageUp",
+		mods = "CTRL",
+		action = act.ActivateTabRelative(-1),
+	},
+	{
+		key = "PageDown",
+		mods = "CTRL",
+		action = act.ActivateTabRelative(1),
+	},
 }
 
 return config
