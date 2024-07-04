@@ -5,7 +5,7 @@ local act = wezterm.action
 
 config.color_scheme = "Catppuccin Latte"
 config.font = wezterm.font("CaskaydiaMono Nerd Font")
-config.font_size = 16
+config.font_size = 14
 config.window_decorations = "NONE"
 
 config.keys = {
