@@ -20,12 +20,6 @@ sudo cp ~/.local/share/gnome-shell/extensions/space-bar\@luchrioh/schemas/org.gn
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 # Configure Tactile
-gsettings set org.gnome.shell.extensions.tactile col-0 1
-gsettings set org.gnome.shell.extensions.tactile col-1 2
-gsettings set org.gnome.shell.extensions.tactile col-2 1
-gsettings set org.gnome.shell.extensions.tactile col-3 0
-gsettings set org.gnome.shell.extensions.tactile row-0 1
-gsettings set org.gnome.shell.extensions.tactile row-1 1
 gsettings set org.gnome.shell.extensions.tactile gap-size 4
 
 # Configure Just Perfection
@@ -44,5 +38,4 @@ gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
 gsettings set org.gnome.mutter center-new-windows true
 
 # Set Cascadia Mono as the default monospace font
-gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Nerd Font 14'
 gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Nerd Font 13'
