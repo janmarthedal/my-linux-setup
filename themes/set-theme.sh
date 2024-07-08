@@ -1,18 +1,13 @@
-# THEME must be set
+#!/bin/bash
 
-if [ -n "$THEME" ]; then
-  THEME_DIR=$(echo $THEME | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
-
-  if [ -d ~/.config/alacritty/theme.toml ]; then
-    cp ~/.local/share/my-linux-setup/themes/$THEME_DIR/alacritty.toml ~/.config/alacritty/theme.toml
-  fi
-  if [ -d ~/.config/nvim/lua/plugins/theme.lua ]; then
-    cp ~/.local/share/my-linux-setup/themes/$THEME_DIR/neovim.lua ~/.config/nvim/lua/plugins/theme.lua
-  fi
-  if [ -f ~/.wezterm.lua ]; then
-    sed -i "s/config.color_scheme =.*/config.color_scheme = \"$THEME\"/g" ~/.wezterm.lua
-  fi
-
-  source ~/.local/share/my-linux-setup/themes/$THEME_DIR/gnome.sh
-  # source ~/.local/share/my-linux-setup/themes/$THEME/vscode.sh
+if [[ -z $1 ]]; then
+  echo "Missing theme"
+  exit 1
 fi
+
+if [[ ! -d $MY_LINUX_SETUP_PATH/themes/$1 ]]; then
+  echo "Theme folder not found"
+  exit 1
+fi
+
+for f in $MY_LINUX_SETUP_PATH/themes/$1/*.sh; do source $f; done

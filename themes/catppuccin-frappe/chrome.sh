@@ -1,1 +1,1 @@
-https://chrome.google.com/webstore/detail/catppuccin-chrome-theme-f/olhelnoplefjdmncknfphenjclimckaf
+# https://chrome.google.com/webstore/detail/catppuccin-chrome-theme-f/olhelnoplefjdmncknfphenjclimckaf

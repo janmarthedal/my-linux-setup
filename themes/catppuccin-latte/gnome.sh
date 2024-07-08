@@ -1,4 +1,1 @@
-gsettings set org.gnome.desktop.interface color-scheme prefer-light
-gsettings set org.gnome.desktop.interface cursor-theme Yaru
-gsettings set org.gnome.desktop.interface gtk-theme Yaru
-gsettings set org.gnome.desktop.interface icon-theme Yaru
+bash $MY_LINUX_SETUP_PATH/themes/_helpers/gnome-light.sh
