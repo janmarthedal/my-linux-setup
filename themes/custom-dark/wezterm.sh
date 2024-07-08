@@ -1,0 +1,1 @@
+../catppuccin-frappe/wezterm.sh

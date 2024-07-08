@@ -1,0 +1,1 @@
+../catppuccin-frappe/neovim.sh
