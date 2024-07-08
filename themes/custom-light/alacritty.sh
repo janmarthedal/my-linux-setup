@@ -1,1 +1,0 @@
-../catppuccin-latte/alacritty.sh
