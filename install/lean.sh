@@ -5,3 +5,7 @@ rm elan-init.sh
 cd -
 
 cp ~/.local/share/my-linux-setup/configs/lean/*.sh ~/.config/my-linux-setup/bash/rc/
+
+if [[ -d $HOME/.config/nvim ]]; then
+  cp $MY_LINUX_SETUP_PATH/configs/lean/neovim.lua ~/.config/nvim/lua/plugins/lean.lua
+fi
