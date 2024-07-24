@@ -2,17 +2,21 @@
 
 ## Prerequisites
 
+Make sure to update the list of available packages
+```
+sudo apt update
+```
 Install git
 ```
 sudo apt install git
 ```
 To clone this repository, make sure you have [generated an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent),
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "jan@janmr.com"
 ```
 and added it in your github settings.
 
-Now clone this repository into `~/.local/share/my-linux-setup/`.
+Now clone this repository into `~/.local/share/my-linux-setup`.
 
 ## Key bindings
 
@@ -40,4 +44,12 @@ mise use -g node@lts
 The following installs the latest version of python-3.11.x and makes it the global default:
 ```sh
 mise use -g python@3.11
+```
+
+## Post install
+
+Remember to set your git credentials:
+```
+git config --global user.name "Jan Marthedal Rasmussen"
+git config --global user.email "jan@janmr.com"
 ```
