@@ -1,1 +1,0 @@
-for script in ~/.config/my-linux-setup/bash/rc/*.sh; do source $script; done
