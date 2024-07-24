@@ -1,5 +1,19 @@
 # My Linux Setup
 
+## Prerequisites
+
+Install git
+```
+sudo apt install git
+```
+To clone this repository, make sure you have [generated an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent),
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+and added it in your github settings.
+
+Now clone this repository into `~/.local/share/my-linux-setup/`.
+
 ## Key bindings
 
 - ALT+Space: Window menu
