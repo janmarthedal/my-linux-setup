@@ -7,3 +7,5 @@ git config --global alias.ff 'pull --ff-only'
 git config --global alias.sla 'log --oneline --decorate --graph --all'
 # Other settings
 git config --global pull.rebase true
+git config --global init.defaultBranch main
+
