@@ -43,7 +43,13 @@ mise use -g node@lts
 
 The following installs the latest version of python-3.11.x and makes it the global default:
 ```sh
-mise use -g python@3.11
+mise use -g python@3.13
+```
+
+### Yarn
+
+```sh
+mise use -g yarn@4.5.1
 ```
 
 ## Post install
